@@ -1,5 +1,5 @@
 
-syncninja.load('guest-randomchat', function (module, exports) {
+syncninja.load('randomchat', function (module, exports) {
     var app = require('syncninja/app');
 
     exports.addChat = function (syncObject, message, callback) {
